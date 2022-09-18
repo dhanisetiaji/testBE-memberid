@@ -1,0 +1,39 @@
+body{
+    overflow-y: scroll!important;
+}
+.col-md-4{
+    .imagecontent{
+        border-radius: 10px;
+        .image{
+            height:100%;
+            width: 100%;
+            object-fit: inherit;
+            border-radius: 10px;
+
+        }
+        .overlatType{
+            position:relative;
+            top: 5vh;
+            display: flex;
+            margin-right: 1em;
+            justify-content: flex-end;
+            .badge{
+                color: #fff!important;
+            }
+        }
+        .overlayPoin{
+            position: relative;
+            bottom: 5vh;
+            left: 1vw;
+            color: #333;
+            font-size: 16px;
+            font-weight: 800;
+        }
+    }
+    .titleproduct{
+        margin-bottom: 1em;
+        font-size: 18px;
+        font-weight: 800;
+        color: #333;
+    }
+}

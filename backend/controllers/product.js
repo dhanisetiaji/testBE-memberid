@@ -18,12 +18,12 @@ module.exports = {
             limit = Number(limit) || 5
             page = Number(page) || 1
             const offset = (page - 1) * limit
-            const total = await Product.countAll()
+            const total = await Product.countAll(point,type)
             const totalPage = Math.ceil(total / limit)
             const result = await Product.getAll(limit, offset, point, type)
             const totalRows = result.length
             if (page > totalPage) {
-                return res.status(404).json({ success: false, message: 'Error: Page not found!' })
+                return res.status(204).json({ success: false, message: 'Error: Page not found!' })
             }
             return res.status(200).json({
                 success: true,

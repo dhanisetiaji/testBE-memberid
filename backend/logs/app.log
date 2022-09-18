@@ -53,3 +53,6 @@
 {"level":"info","message":"HTTP DELETE /api/v1/products/1 200 303ms","meta":{},"timestamp":"2022-09-17 18:46:42"}
 {"level":"info","message":"HTTP PATCH /api/v1/products/2 200 5645ms","meta":{},"timestamp":"2022-09-17 18:47:36"}
 {"level":"info","message":"HTTP POST /api/v1/products 200 7761ms","meta":{},"timestamp":"2022-09-17 18:49:03"}
+{"level":"error","message":"HTTP POST /api/v1/products 500 27ms","meta":{},"timestamp":"2022-09-18 02:10:32"}
+{"level":"error","message":"HTTP POST /api/v1/products 500 7ms","meta":{},"timestamp":"2022-09-18 02:10:40"}
+{"level":"info","message":"HTTP POST /api/v1/products 200 2336ms","meta":{},"timestamp":"2022-09-18 02:12:35"}

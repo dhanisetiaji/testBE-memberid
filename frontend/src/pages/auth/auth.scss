@@ -1,0 +1,42 @@
+.row{
+    .col-md-4{
+        .imgLogo{
+            height: 100px;
+            width: 100px;
+        }
+        h4{
+            margin:1em 0;
+            font-weight: 800;
+            font-size: 26px;
+            color: var(--tertiary-color);
+        }
+        p{
+            font-size: 18px;
+            color: var(--tertiary-color);
+            font-weight: 500;
+        }
+        form{
+            text-align: -webkit-center;
+        }
+        .form-group{
+            margin: 1em 0;
+            label{
+                font-size: 14px;
+                color: var(--tertiary-color);
+                font-weight: 500;
+            }
+            input{
+                border-radius: 5px;
+                padding: 0.5em 1em;
+                width: 100%;
+                color: var(--tertiary-color);
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+
+}
