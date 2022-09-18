@@ -46,7 +46,7 @@ const IndexHome = () => {
     }
 
     useEffect(() => {
-        loadData(filters, GetAuth.data.token)
+        loadData(filters, GetAuth.data?.token)
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [filters.page])
 
